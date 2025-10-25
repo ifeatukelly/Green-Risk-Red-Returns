@@ -1,4 +1,4 @@
-# Green Risk Red Returns: Mapping The Financial Impact of Climate Risk Across High- and Low- Risk Regions
+# Green Risk, Red Returns: Mapping The Financial Impact of Climate Risk Across High- and Low- Risk Regions
 This repository contains the code and methodology for the research project, *"Green Risk Red Returns: Mapping The Financial Impact of Climate Risk Across High- and Low- Risk Regions."*
 
 ---
@@ -13,10 +13,10 @@ Empirical evidence on how these regional factors influence stock returns has bee
 
 ### **2. Methodology and Data**
 The study employed **multiple linear regression** to model the relationship between Extreme Temperature Days (ETD) and stock returns. Two models were used to capture both overall and context-specific effects:<br/>
-- **Model 1 (Mixed Study):** Tested overall differences using an interaction term between ETD and Regional Risk Classification.
-$$r_{i}=\beta_{0}+\beta_{1}ETD_{1}+\beta_{2}ETD\cdot RiskClass_{2}+\beta_{3}FL_{3}+\beta_{4}MC_{4}+\beta_{5}RiskClass_{5}+e_{i} \quad$$
-- **Model 2 (High/Low-Risk Studies):** Explored specific patterns and magnitudes within each region type.
-$$r_{t}=\beta_{0}+\beta_{1}ETD_{1}+\beta_{2}FL_{2}+\beta_{3}MC_{3}+e_{t} \quad$$
+- **Model 1 (Mixed Study):** Tested overall differences using an interaction term between ETD and Regional Risk Classification.<br/>
+**$$r_{i}=\beta_{0}+\beta_{1}ETD_{1}+\beta_{2}ETD\cdot RiskClass_{2}+\beta_{3}FL_{3}+\beta_{4}MC_{4}+\beta_{5}RiskClass_{5}+e_{i} \quad$$**
+- **Model 2 (High/Low-Risk Studies):** Explored specific patterns and magnitudes within each region type.<br/>
+**$$r_{t}=\beta_{0}+\beta_{1}ETD_{1}+\beta_{2}FL_{2}+\beta_{3}MC_{3}+e_{t} \quad$$**
 <br/>
 
 **Data and Variables**<br/>
