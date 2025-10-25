@@ -42,7 +42,7 @@ The following tools and libraries were used to conduct data processing, analysis
   * SQL: Data storing.
   * Statsmodels: Implementation of the Ordinary Least Squares (OLS) regression models.
   * Matplotlib/Seaborn: Data visualisation (generating figures and correlation plots).
-- **Environment:** Spyder
+- **Environment:** Jupyter Notebook
 
 ### 5. Future Work
 Based on the study's conclusions, potential directions for future research include:
